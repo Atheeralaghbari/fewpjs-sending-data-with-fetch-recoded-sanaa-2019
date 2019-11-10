@@ -1,5 +1,4 @@
 
-
 // Add your code here
 
 const submitData=(name,email)=>{
