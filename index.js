@@ -22,3 +22,4 @@ return fetch("http://localhost:3000/users",{
 })
 .catch(error=>document.querySelector("body").innerHTML=error)
 }
+submitData("atheer","atheeralaghbari61@gmail.com")
