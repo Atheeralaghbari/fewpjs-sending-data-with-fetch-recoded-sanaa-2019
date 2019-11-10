@@ -18,7 +18,7 @@ return fetch("http://localhost:3000/users",{
 {
   let span=document.createElement("span");
   span.innerHTML="user-id"+object.id;
-  document.querySelector("body").appendchild(span);
+  document.querySelector("body").appendChild(span);
 })
-.catch(error=>document.querySelector("body").appendchild=error)
+.catch(error=>document.querySelector("body").appendChild=error)
 }
